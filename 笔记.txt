@@ -1,0 +1,22 @@
+header("Content-type=html/text;charset=utf-8")
+define()
+
+require_once()
+mysql_connect()
+mysql_error()
+mysql_select_db()
+mysql_query("set names utf8")
+  
+
+增
+insert into 数据表(name,id) values ("温", 5)
+删
+delete from 数据表 where id=5
+改
+update 数据表  set name="韩" where id=1
+查
+select * from 数据表 where id=4
+select * from 数据表 
+select * from 数据表 text where name like %变量% by dateline desc
+
+
